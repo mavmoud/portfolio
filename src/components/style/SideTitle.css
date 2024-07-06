@@ -1,0 +1,14 @@
+.ProjectsTitle {
+    margin-bottom: 25px;
+    width: 1005px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.SideTitle{
+    text-align: left;
+    color: #939393;
+    font-size: 20px;
+    font-family: "Switzer-Variable", sans-serif;
+    font-weight: 400;
+    margin-left: 50px;
+}

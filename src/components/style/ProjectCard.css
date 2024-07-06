@@ -1,0 +1,88 @@
+ .ProjectCard {
+     position: relative;
+     background-color: #000000;
+     width: fit-content;
+     height: fit-content;
+     border-radius: 66px;
+     padding: 23px 23px 23px 45px;
+     margin-right: auto;
+     margin-left: auto;
+     overflow: hidden;
+     transition: transform 0.5s ease;
+ }
+ .ProjectCard:hover {
+     transform: scale(1.02);
+     cursor: none;
+ }
+ .RightBlur {
+     position: absolute;
+     width:540px;
+     height: 540px;
+     top: -200px;
+     right: -170px;
+ }
+ .LeftBlur {
+     position: absolute;
+     width:540px;
+     height: 540px;
+     bottom: -200px;
+     left: -170px;
+ }
+ .DetailsDiv {
+     width: 935px;
+     height: 324px;
+     margin-right: auto;
+     margin-left: auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 6px;
+     z-index: 1;
+ }
+.ProjectDetails {
+    width: 443px;
+    height: 291px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ProjectInfo{
+    background-color: transparent;
+    width: 443px;
+    height: 200px;
+    z-index: 2;
+}
+.ProjectName{
+    text-align: left;
+    color: #FFFFFF;
+    font-family: "Switzer-Variable", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 22px;
+    background-color: transparent;
+}
+.ProjectDescription {
+    text-align: left;
+    color: #939393;
+    font-family: "Switzer-Variable", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    background-color: transparent;
+}
+.CardImg {
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.ProjectImg {
+    height: 324px;
+}
+.ProjectDiv {
+    margin-bottom: 42px;
+    width: fit-content;
+    height: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}

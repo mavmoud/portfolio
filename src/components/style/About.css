@@ -1,0 +1,25 @@
+.about {
+  width: 920px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 108px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.aboutTitle {
+  color: #939393;
+  font-size: 22px;
+  font-family: "Switzer-Variable", serif;
+  font-weight: 400;
+}
+.aboutDescription {
+  width: 660px;
+  font-family: "Switzer-Variable", serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 18px;
+}

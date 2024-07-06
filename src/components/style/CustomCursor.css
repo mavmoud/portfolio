@@ -1,0 +1,30 @@
+.custom-cursor {
+    position: fixed;
+    width: 115px;
+    height: 45px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.1s;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    box-shadow: 0 0 4px rgba(147, 147, 147, 0.25) inset;
+    border-radius: 40px;
+    background-color: #0f0f0f;
+    overflow: hidden;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Switzer-Variable", serif;
+}
+.text {
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.25);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.custom-cursor.visible {
+    opacity: 1;
+}
+.custom-cursor.hidden {
+    opacity: 0;
+}

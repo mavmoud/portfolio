@@ -1,0 +1,30 @@
+.mobileText {
+    width: 665px;
+    font-family: "Gambarino", serif;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.mobileLinks{
+    width: 665px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.mLinks{
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.mlink{
+    color: #939393;
+    font-family: "Gambarino", serif;
+    font-size: 22px;
+}
+.mlink:hover{
+    color: #EDECEC;
+    cursor: pointer;
+}

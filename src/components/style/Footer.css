@@ -1,0 +1,42 @@
+.footer {
+  width: 960px;
+  margin: 180px auto 45px;
+  background-color: transparent;
+}
+.hr {
+  height: 1px;
+  border-radius: 1px;
+  background-color: #212121;
+  margin-bottom: 18px;
+}
+.footerLinks {
+  width: 855px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 56px;
+  width: fit-content;
+  height: fit-content;
+}
+.copyright {
+  color: #939393;
+  font-size: 15px;
+  font-family: "Switzer-Variable", serif;
+  font-weight: 300;
+}
+.socialLinks {
+  color: #939393;
+  font-size: 15px;
+  font-family: "Switzer-Variable", serif;
+  font-weight: 300;
+  text-decoration: none;
+}
+.socialLinks:hover {
+  color: #EDECEC;
+  cursor: pointer;
+}

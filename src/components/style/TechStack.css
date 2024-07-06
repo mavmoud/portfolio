@@ -1,0 +1,63 @@
+.techStack{
+  width: 920px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.stackTitle {
+  color: #939393;
+  font-size: 22px;
+  font-family: "Switzer-Variable", serif;
+  font-weight: 400;
+}
+.stackColumns {
+  width: 660px;
+  display: flex;
+  justify-content: space-between;
+}
+.columns {
+  width: fit-content;
+  height: fit-content;
+  font-family: "Switzer-Variable", serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 9px;
+}
+.plusLI {
+  list-style: none;
+  height: 16px;
+  width: 16px;
+
+}
+li {
+  list-style: none;
+  height: fit-content;
+
+}
+.plus {
+  height: 18px;
+  width: 18px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.plusUl {
+  height: 108px;
+  line-height: normal;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.incompUl {
+  padding-top: 2px;
+}
+
+.columnSkills{
+  width: fit-content;
+}
