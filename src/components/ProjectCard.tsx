@@ -2,7 +2,7 @@ import React, { ReactElement, ReactNode, ReactPortal, useState } from "react";
 import CustomCursor from "./CustomCursor.tsx";
 import ProjectIcon from "./ProjectIcon.tsx";
 import useWindowSize from ".//useWindowSize";
-import Ellipse from "../assets/images/Ellipse2.png";
+import Background from "../assets/images/background.png";
 import "./style/ProjectCard.css";
 
 interface ProjectCardProps {
@@ -103,7 +103,7 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <img src={Ellipse} alt="Background Blur" className="RightBlur" />
+              <img src={Background} alt="Background Blur" className="RightBlur" />
               <div className="DetailsDiv">
                 <div className="ProjectDetails" style={{}}>
                   <div className="ProjectInfo" style={{}}>
@@ -118,7 +118,7 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
                     onMouseLeave={handleIconMouseLeave}
                   />
                   <img
-                    src={Ellipse}
+                    src={Background}
                     alt="Background Blur"
                     className="LeftBlur"
                   />

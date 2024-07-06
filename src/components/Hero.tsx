@@ -1,4 +1,4 @@
-import Ellipse from "../assets/images/Ellipse2.png";
+import Background from "../assets/images/background.png";
 import { Fade } from "react-awesome-reveal";
 import useWindowSize from ".//useWindowSize";
 import "./style/Hero.css";
@@ -53,7 +53,7 @@ function Hero() {
               </div>
               <div className="heroBackground">
                 <img
-                    src={Ellipse}
+                    src={Background}
                     alt="Background Blur"
                     className="background"
                 />
@@ -99,7 +99,7 @@ function Hero() {
                 </div>
                 <div className="heroBackground">
                   <img
-                    src={Ellipse}
+                    src={Background}
                     alt="Background Blur"
                     className="background"
                   />
