@@ -1,6 +1,6 @@
 .custom-cursor {
     position: fixed;
-    width: 115px;
+    width: 100px;
     height: 45px;
     pointer-events: none;
     opacity: 0;
@@ -11,7 +11,7 @@
     border-radius: 40px;
     background-color: #0f0f0f;
     overflow: hidden;
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
     font-family: "Switzer-Variable", serif;
 }
