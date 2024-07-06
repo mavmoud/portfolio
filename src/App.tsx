@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Fade } from "react-awesome-reveal";
+import { Analytics } from "@vercel/analytics/react"
 import Hero from "./components/Hero.tsx";
 import SideTitle from "./components/SideTitle.tsx";
 import ProjectCard from "./components/ProjectCard.tsx";
@@ -37,10 +38,12 @@ const App: React.FC = () => {
         <>
             {width <= 768 ? (
                 <>
+                    <Analytics />
                     <Mobile />
                 </>
             ) : (
                 <>
+                    <Analytics />
                     <Hero />
                     <SideTitle title="Projects" />
                     <CustomCursor isVisible={isCursorVisible} />
