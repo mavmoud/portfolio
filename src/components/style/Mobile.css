@@ -1,5 +1,9 @@
+.mobile {
+    width: 100vw;
+}
 .mobileText {
     width: 665px;
+    max-width: 100vw;
     font-family: "Gambarino", serif;
     font-size: 36px;
     color: #FFFFFF;
@@ -10,6 +14,7 @@
 }
 .mobileLinks{
     width: 665px;
+    max-width: 100vw;
     margin-right: auto;
     margin-left: auto;
 }
