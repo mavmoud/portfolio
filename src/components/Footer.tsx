@@ -13,7 +13,7 @@ function Footer() {
 
   return (
     <>
-      <Fade direction="up" delay={200} triggerOnce>
+      <Fade direction="up" delay={150} triggerOnce>
         <div className="footer">
           <div className="hr" />
           <div className="footerLinks">
