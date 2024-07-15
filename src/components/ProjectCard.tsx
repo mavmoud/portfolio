@@ -94,46 +94,46 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
           </div>
         </>
       ) : (
-        <>
-          <div onClick={handleClick} className="ProjectDiv">
-            <CustomCursor isVisible={isCursorVisible} />
-            <div
-              className="ProjectCard"
-              style={{}}
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-            >
-              <img src={Background} alt="Background Blur" className="RightBlur" />
-              <div className="DetailsDiv">
-                <div className="ProjectDetails" style={{}}>
-                  <div className="ProjectInfo" style={{}}>
-                    <h1 className="ProjectName">{props.name}</h1>
-                    <p className="ProjectDescription">{props.description}</p>
+          <>
+            <div onClick={handleClick} className="ProjectDiv">
+              <CustomCursor isVisible={isCursorVisible}/>
+              <div
+                  className="ProjectCard"
+                  style={{}}
+                  onMouseEnter={handleMouseEnter}
+                  onMouseLeave={handleMouseLeave}
+              >
+                <img src={Background} alt="Background Blur" className="RightBlur"/>
+                <div className="DetailsDiv">
+                  <div className="ProjectDetails" style={{}}>
+                    <div className="ProjectInfo" style={{}}>
+                      <h1 className="ProjectName">{props.name}</h1>
+                      <p className="ProjectDescription">{props.description}</p>
+                    </div>
+                    <ProjectIcon
+                        iconDef={props.iconDef}
+                        iconHov={props.iconHov}
+                        iconLink={props.iconLink}
+                        onMouseEnter={handleIconMouseEnter}
+                        onMouseLeave={handleIconMouseLeave}
+                    />
+                    <img
+                        src={Background}
+                        alt="Background Blur"
+                        className="LeftBlur"
+                    />
                   </div>
-                  <ProjectIcon
-                    iconDef={props.iconDef}
-                    iconHov={props.iconHov}
-                    iconLink={props.iconLink}
-                    onMouseEnter={handleIconMouseEnter}
-                    onMouseLeave={handleIconMouseLeave}
-                  />
-                  <img
-                    src={Background}
-                    alt="Background Blur"
-                    className="LeftBlur"
-                  />
-                </div>
-                <div className="CardImg" style={{}}>
-                  <img
-                    className="ProjectImg"
-                    src={props.image}
-                    alt="Project Image"
-                  />
+                  <div className="CardImg" style={{}}>
+                    <img
+                        className="ProjectImg"
+                        src={props.image}
+                        alt="Project Image"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </>
+          </>
       )}
     </>
   );

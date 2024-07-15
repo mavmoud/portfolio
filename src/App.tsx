@@ -47,7 +47,7 @@ const App: React.FC = () => {
                     <Hero />
                     <SideTitle title="Projects" />
                     <CustomCursor isVisible={isCursorVisible} />
-                    <Fade delay={500} triggerOnce>
+                    <Fade delay={1700} triggerOnce>
                         <ProjectCard
                             onMouseEnter={handleMouseEnter}
                             onMouseLeave={handleMouseLeave}

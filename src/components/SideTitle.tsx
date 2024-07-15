@@ -15,7 +15,7 @@ function SideTitle(props: {
 }) {
   return (
     <>
-      <Fade direction="down" delay={500} triggerOnce>
+      <Fade direction="down" delay={1600} triggerOnce>
         <div className="ProjectsTitle">
           <h1 className="SideTitle">{props.title}</h1>
         </div>
