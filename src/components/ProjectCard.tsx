@@ -68,27 +68,35 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
     <>
       {width <= 768 ? (
         <>
-          <div onClick={handleClick} className="MotionDiv">
+          <div onClick={handleClick} className="ProjectDiv">
             <div className="ProjectCard">
-              <div className="CardImg">
-                <img
-                  className="ProjectImg"
-                  src={props.image}
-                  alt="Project Image"
-                />
-              </div>
-              <div className="ProjectDetails">
-                <div className="ProjectInfo">
-                  <h1 className="ProjectName">{props.name}</h1>
-                  <p className="ProjectDescription">{props.description}</p>
+              <img src={Background} alt="Background Blur" className="RightBlur"/>
+              <div className="DetailsDiv">
+                <div className="CardImg">
+                  <img
+                      className="ProjectImg"
+                      src={props.image}
+                      alt="Project Image"
+                  />
                 </div>
-                <ProjectIcon
-                  iconDef={props.iconDef}
-                  iconHov={props.iconHov}
-                  iconLink={props.iconLink}
-                  onMouseEnter={handleIconMouseEnter}
-                  onMouseLeave={handleIconMouseLeave}
-                />
+                <div className="ProjectDetails">
+                  <div className="ProjectInfo">
+                    <h1 className="ProjectName">{props.name}</h1>
+                    <p className="ProjectDescription">{props.description}</p>
+                  </div>
+                  <ProjectIcon
+                      iconDef={props.iconDef}
+                      iconHov={props.iconHov}
+                      iconLink={props.iconLink}
+                      onMouseEnter={handleIconMouseEnter}
+                      onMouseLeave={handleIconMouseLeave}
+                  />
+                  <img
+                      src={Background}
+                      alt="Background Blur"
+                      className="LeftBlur"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -96,7 +104,7 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
       ) : (
           <>
             <div onClick={handleClick} className="ProjectDiv">
-              <CustomCursor isVisible={isCursorVisible}/>
+            <CustomCursor isVisible={isCursorVisible}/>
               <div
                   className="ProjectCard"
                   style={{}}

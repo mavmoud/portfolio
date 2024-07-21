@@ -23,3 +23,21 @@
   flex-direction: column;
   gap: 18px;
 }
+@media (max-width: 768px) {
+  .about {
+    width: 78.88vw;
+    flex-direction: column;
+    gap: 5vw;
+    margin-top: 19.17vw;
+  }
+
+  .aboutTitle {
+    font-size: 3.8vw;
+  }
+
+  .aboutDescription {
+    width: 75vw;
+    font-size: 3.56vw;
+    gap: 3.56vw;
+  }
+}

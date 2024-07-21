@@ -36,3 +36,26 @@
 .greyEducation {
   color: #939393;
 }
+@media (max-width: 768px) {
+  .education {
+    width: 78.88vw;
+    flex-direction: column;
+    gap: 5vw;
+    margin-top: 24.26vw;
+
+  }
+  .educationTitle {
+    font-size: 3.8vw;
+  }
+  .educationDescription {
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .universityProgram {
+    font-size: 3.56vw;
+  }
+  .locationDuration {
+    font-size: 3.56vw;
+  }
+}

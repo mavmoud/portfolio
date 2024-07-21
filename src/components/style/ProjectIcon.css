@@ -13,3 +13,9 @@
 .icon:hover{
     transform: scale(1.1);
 }
+@media screen and (max-width: 768px) {
+    .icon{
+        width: 7.63vw;
+        height: 7.63vw;
+    }
+}

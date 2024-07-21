@@ -61,3 +61,38 @@ li {
 .columnSkills{
   width: fit-content;
 }
+@media (max-width: 768px) {
+  .techStack{
+    width: 78.88vw;
+    flex-direction: column;
+    gap: 5vw;
+    margin-top: 24.26vw;
+  }
+  .stackTitle {
+    font-size: 3.8vw;
+  }
+  .stackColumns {
+    width: 75vw;
+  }
+  .columns {
+    font-size: 3.56vw;
+    column-gap: 1vw;
+  }
+  .plusLI {
+    height: 3vw;
+    width: 3vw;
+
+  }
+  .plus {
+    height: 3vw;
+    width: 3vw;
+  }
+  .plusUl {
+    height: 20vw;
+    padding-top: 0.3vw;
+    padding-bottom: 0.3vw;
+  }
+  .incompUl {
+    padding-top: 0.3vw;
+  }
+}

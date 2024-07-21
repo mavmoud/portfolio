@@ -40,3 +40,23 @@
   color: #EDECEC;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .footer {
+    width: 80.66vw;
+    margin-top: 38.16vw;
+    padding-bottom: 0;
+
+  }
+  .footerLinks {
+    width: 75vw;
+  }
+  .links {
+    column-gap: 10vw;
+  }
+  .copyright {
+    font-size: 2.54vw;
+  }
+  .socialLinks {
+    font-size: 2.54vw;
+  }
+}

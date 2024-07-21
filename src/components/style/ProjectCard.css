@@ -86,3 +86,53 @@
     margin-right: auto;
     margin-left: auto;
 }
+@media screen and (max-width: 768px) {
+    .ProjectCard {
+        border-radius: 10.68vw;
+        padding: 7.16vw 6.63vw 7.16vw 6.63vw;
+    }
+    .RightBlur {
+        width: 117vw;
+        height: 117vw;
+        top: -50.89vw;
+        right: -43.25vw;
+    }
+    .LeftBlur {
+        width: 117vw;
+        height: 117vw;
+        bottom: -50.89vw;
+        left: -43.25vw;
+    }
+    .DetailsDiv {
+        width: 74.55vw;
+        height: fit-content;
+        flex-direction: column;
+        gap: 5.85vw;
+        z-index: 1;
+    }
+    .ProjectDetails {
+        width: 74.55vw;
+        height: fit-content;
+        gap: 6.36vw;
+    }
+    .ProjectInfo {
+        width: 73.55vw;
+        height: fit-content;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .ProjectName{
+        font-size: 4.32vw;
+        margin-bottom: 3.56vw;
+    }
+    .ProjectDescription {
+        font-size: 3.56vw;
+    }
+    .ProjectImg {
+        width: 78.88vw;
+        height: 52.22vw;
+    }
+    .ProjectDiv {
+        margin-bottom: 8.68vw;
+    }
+}

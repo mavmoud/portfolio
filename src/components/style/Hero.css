@@ -23,14 +23,14 @@
         transform: translate(0px, 0px) scale(1);
     }
 }
-.hero{
+.hero {
     width: 100vw;
     height: fit-content;
     margin-top: 140px;
     margin-bottom: 225px;
     text-align: left;
 }
-.ppContainer{
+.ppContainer {
     width: 665px;
     height: fit-content;
     margin-right: auto;
@@ -77,24 +77,63 @@
     padding-bottom: 0;
     margin-bottom: 0;
 }
-.heroLinks{
+.heroLinks {
     margin-top: 30px;
     width: 665px;
     margin-right: auto;
     margin-left: auto;
 }
-.hLinks{
+.hLinks {
     width: 260px;
     display: flex;
     justify-content: space-between;
 
 }
-.link{
+.link {
     color: #939393;
     font-family: "Gambarino", serif;
     font-size: 22px;
 }
-.link:hover{
+.link:hover {
     color: #EDECEC;
     cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .hero {
+        margin-top: 30vw;
+        margin-bottom: 40vw;
+    }
+    .ppContainer {
+        width: 78.11vw;
+        margin-bottom: 8.9vw;
+    }
+    .pp {
+        width: 13vw;
+        height: 13vw;
+        filter: blur(5px);
+    }
+    .background {
+        position: absolute;
+        top: -95.4vw;
+        right: -114.5vw;
+        width: 130vw;
+        height: 130vw;
+        z-index: -1;
+        opacity: 0.9;
+        animation: background 10s infinite;
+    }
+    .heroText {
+        width: 78.11vw;
+        font-size: 5.85vw;
+    }
+    .heroLinks {
+        margin-top: 5.85vw;
+        width: 78.11vw;
+    }
+    .hLinks {
+        width: 44.27vw;
+    }
+    .link {
+        font-size: 3.56vw;
+    }
 }
