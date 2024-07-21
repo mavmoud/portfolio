@@ -38,7 +38,7 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
 
   const handleClick = (e: { stopPropagation: () => void }) => {
     e.stopPropagation();
-    window.open(props.iconLink);
+    window.open(props.link);
   };
   const [isCursorVisible, setCursorVisibility] = useState(false);
 
