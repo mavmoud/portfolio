@@ -64,7 +64,7 @@ function Hero() {
       ) : (
           <>
             <div className="hero">
-              <Fade direction="up" cascade triggerOnce>
+              <Fade direction="down" cascade triggerOnce>
                 <div className="ppContainer">
                   <div className="pp"/>
                 </div>
