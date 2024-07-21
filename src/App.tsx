@@ -64,7 +64,7 @@ const App: React.FC = () => {
                     iconDef={GithubGrey}
                     iconHov={GithubWhite}
                     image={WebsiteImg}
-                    link=""
+                    link="/"
                     iconLink="https://github.com/mavmoud/portfolio"
                 />
             </Fade>
