@@ -20,6 +20,7 @@
      height: 540px;
      top: -200px;
      right: -170px;
+     pointer-events: none;
  }
  .LeftBlur {
      position: absolute;
@@ -27,6 +28,7 @@
      height: 540px;
      bottom: -200px;
      left: -170px;
+     pointer-events: none;
  }
  .DetailsDiv {
      width: 935px;
@@ -78,6 +80,7 @@
 }
 .ProjectImg {
     height: 324px;
+    pointer-events: none;
 }
 .ProjectDiv {
     margin-bottom: 42px;

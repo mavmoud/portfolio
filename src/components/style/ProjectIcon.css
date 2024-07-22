@@ -9,6 +9,7 @@
     height: 40px;
     background-color: transparent;
     transition: transform 0.3s ease;
+    pointer-events: none;
 }
 .icon:hover{
     transform: scale(1.1);

@@ -107,14 +107,13 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
             <CustomCursor isVisible={isCursorVisible}/>
               <div
                   className="ProjectCard"
-                  style={{}}
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
               >
                 <img src={Background} alt="Background Blur" className="RightBlur"/>
                 <div className="DetailsDiv">
-                  <div className="ProjectDetails" style={{}}>
-                    <div className="ProjectInfo" style={{}}>
+                  <div className="ProjectDetails" >
+                    <div className="ProjectInfo" >
                       <h1 className="ProjectName">{props.name}</h1>
                       <p className="ProjectDescription">{props.description}</p>
                     </div>
@@ -131,7 +130,7 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
                         className="LeftBlur"
                     />
                   </div>
-                  <div className="CardImg" style={{}}>
+                  <div className="CardImg" >
                     <img
                         className="ProjectImg"
                         src={props.image}
