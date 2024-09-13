@@ -92,7 +92,7 @@
 @media screen and (max-width: 768px) {
     .ProjectCard {
         border-radius: 10.68vw;
-        padding: 7.16vw 6.63vw 7.16vw 6.63vw;
+        padding: 6.63vw 6.63vw 7.16vw 6.63vw;
     }
     .RightBlur {
         width: 117vw;
