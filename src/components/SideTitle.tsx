@@ -1,5 +1,4 @@
 import { ReactElement, ReactNode, ReactPortal } from "react";
-import { Fade } from "react-awesome-reveal";
 import "./style/SideTitle.css";
 
 function SideTitle(props: {
@@ -14,13 +13,11 @@ function SideTitle(props: {
     | undefined;
 }) {
   return (
-    <>
-      <Fade direction="down" delay={1600} triggerOnce>
-        <div className="ProjectsTitle">
-          <h1 className="SideTitle">{props.title}</h1>
-        </div>
-      </Fade>
-    </>
+      <>
+          <div className="ProjectsTitle">
+              <h1 className="SideTitle">{props.title}</h1>
+          </div>
+      </>
   );
 }
 

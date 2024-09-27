@@ -1,5 +1,4 @@
 import { ReactElement, ReactNode, ReactPortal } from "react";
-import { Fade } from "react-awesome-reveal";
 import "./style/About.css";
 
 function About(props: {
@@ -23,8 +22,7 @@ function About(props: {
     | undefined;
 }) {
   return (
-    <>
-      <Fade delay={100} triggerOnce>
+      <>
         <div className="about">
           <div className="aboutTitle">About</div>
           <div className="aboutDescription">
@@ -32,8 +30,7 @@ function About(props: {
             <p>{props.aboutTwo}</p>
           </div>
         </div>
-      </Fade>
-    </>
+      </>
   );
 }
 

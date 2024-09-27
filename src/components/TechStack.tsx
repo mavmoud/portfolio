@@ -1,10 +1,8 @@
-import { Fade } from "react-awesome-reveal";
 import Plus from "../assets/images/plus.svg";
 import "./style/TechStack.css";
 function TechStack() {
   return (
-    <>
-      <Fade delay={100} triggerOnce>
+      <>
         <div className="techStack">
           <div className="stackTitle">Tech Stack</div>
           <div className="stackColumns">
@@ -12,19 +10,19 @@ function TechStack() {
               <div>
                 <ul className="plusUl">
                   <li>
-                    <img className="plus" src={Plus} alt="Plus Icon" />
+                    <img className="plus" src={Plus} alt="Plus Icon"/>
                   </li>
                   <li>
-                    <img className="plus" src={Plus} alt="Plus Icon" />
+                    <img className="plus" src={Plus} alt="Plus Icon"/>
                   </li>
                   <li>
-                    <img className="plus" src={Plus} alt="Plus Icon" />
+                    <img className="plus" src={Plus} alt="Plus Icon"/>
                   </li>
                   <li>
-                    <img className="plus" src={Plus} alt="Plus Icon" />
+                    <img className="plus" src={Plus} alt="Plus Icon"/>
                   </li>
                   <li>
-                    <img className="plus" src={Plus} alt="Plus Icon" />
+                    <img className="plus" src={Plus} alt="Plus Icon"/>
                   </li>
                 </ul>
               </div>
@@ -42,19 +40,19 @@ function TechStack() {
               <div>
                 <ul className="plusUl">
                   <li>
-                    <img className="plus" src={Plus} alt="Plus Icon" />
+                    <img className="plus" src={Plus} alt="Plus Icon"/>
                   </li>
                   <li>
-                    <img className="plus" src={Plus} alt="Plus Icon" />
+                    <img className="plus" src={Plus} alt="Plus Icon"/>
                   </li>
                   <li>
-                    <img className="plus" src={Plus} alt="Plus Icon" />
+                    <img className="plus" src={Plus} alt="Plus Icon"/>
                   </li>
                   <li>
-                    <img className="plus" src={Plus} alt="Plus Icon" />
+                    <img className="plus" src={Plus} alt="Plus Icon"/>
                   </li>
                   <li>
-                    <img className="plus" src={Plus} alt="Plus Icon" />
+                    <img className="plus" src={Plus} alt="Plus Icon"/>
                   </li>
                 </ul>
               </div>
@@ -72,13 +70,13 @@ function TechStack() {
               <div>
                 <ul className="incompUl">
                   <li>
-                    <img className="plus" src={Plus} alt="Plus Icon" />
+                    <img className="plus" src={Plus} alt="Plus Icon"/>
                   </li>
                   <li>
-                    <img className="plus" src={Plus} alt="Plus Icon" />
+                    <img className="plus" src={Plus} alt="Plus Icon"/>
                   </li>
                   <li>
-                    <img className="plus" src={Plus} alt="Plus Icon" />
+                    <img className="plus" src={Plus} alt="Plus Icon"/>
                   </li>
                   {/*<li><img className="plus" src={Plus} alt="Plus Icon"/></li>*/}
                   {/*<li><img className="plus" src={Plus} alt="Plus Icon"/></li>*/}
@@ -96,8 +94,7 @@ function TechStack() {
             </div>
           </div>
         </div>
-      </Fade>
-    </>
+      </>
   );
 }
 

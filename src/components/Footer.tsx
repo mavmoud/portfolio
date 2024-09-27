@@ -1,5 +1,4 @@
 import "./style/Footer.css";
-import { Fade } from "react-awesome-reveal";
 
 function Footer() {
   const copyright = new Date().getFullYear();
@@ -12,23 +11,22 @@ function Footer() {
   };
 
   return (
-    <>
-      <Fade direction="up" delay={150} triggerOnce>
+      <>
         <div className="footer">
-          <div className="hr" />
+          <div className="hr"/>
           <div className="footerLinks">
             <div className="links">
               <div
-                className="socialLinks"
-                onClick={() => handleClick("https://github.com/mavmoud")}
+                  className="socialLinks"
+                  onClick={() => handleClick("https://github.com/mavmoud")}
               >
                 Github
               </div>
               <div
-                className="socialLinks"
-                onClick={() =>
-                  handleClick("https://www.linkedin.com/in/mavmoud/")
-                }
+                  className="socialLinks"
+                  onClick={() =>
+                      handleClick("https://www.linkedin.com/in/mavmoud/")
+                  }
               >
                 Linkedin
               </div>
@@ -39,8 +37,7 @@ function Footer() {
             <div className="copyright">© {copyright}</div>
           </div>
         </div>
-      </Fade>
-    </>
+      </>
   );
 }
 
