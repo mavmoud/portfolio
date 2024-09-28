@@ -9,7 +9,7 @@ function Hero() {
     window.open(url);
   };
   const emailClick = () => {
-    window.location.href = "mailto:Mahmoud%20M.%3cmm@mahmoud.cam%3e";
+    window.location.href = "mailto:Mahmoud%20M.%3cmm@mahmoud.am%3e";
   };
 
   return (
