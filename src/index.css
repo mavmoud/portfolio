@@ -25,7 +25,7 @@
   url('../public/fonts/Switzer-Variable.woff') format('woff'),
   url('../public/fonts/Switzer-Variable.ttf') format('truetype');
   font-weight: 100 900;
-  font-display: swap;
+  font-display: block;
   font-style: normal;
 }
 /**
@@ -42,7 +42,7 @@
   url('../public/fonts/Switzer-VariableItalic.woff') format('woff'),
   url('../public/fonts/Switzer-VariableItalic.ttf') format('truetype');
   font-weight: 100 900;
-  font-display: swap;
+  font-display: block;
   font-style: italic;
 }
 /**
@@ -64,7 +64,7 @@
   url('../public/fonts/Gambarino-Regular.ttf') format('truetype'),
   url('../public/fonts/Gambarino-Regular.otf') format('opentype');
   font-weight: 400;
-  font-display: swap;
+  font-display: block;
   font-style: normal;
 }
 
