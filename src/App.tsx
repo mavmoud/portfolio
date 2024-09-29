@@ -50,7 +50,7 @@ const App: React.FC = () => {
                     iconDef={FigmaGrey}
                     iconHov={FigmaWhite}
                     image={WellnessImage}
-                    link="https://wellness.mahmoud.cam"
+                    link="https://wellness.mahmoud.am"
                     iconLink="https://www.figma.com/proto/7hW67dW7u4XA1QcKNUowjn/wellness?page-id=0%3A1&node-id=2-3&viewport=811%2C278%2C0.3&t=1A2rqVOA7bDNucOh-1&scaling=scale-down&starting-point-node-id=2%3A3"
                 />
                 <ProjectCard
