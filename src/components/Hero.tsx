@@ -9,7 +9,7 @@ function Hero() {
     window.open(url);
   };
   const emailClick = () => {
-    window.location.href = "mailto:Mahmoud%20M.%3cmm@mahmoud.am%3e";
+    window.location.href = "mailto:Mahmoud%20M.%3cmm@mahmmk.com%3e";
   };
 
   return (
@@ -94,11 +94,11 @@ function Hero() {
                 </div>
               </div>
               <div className="heroBackground">
-                <img
-                    src={Background}
-                    alt="Background Blur"
-                    className="background"
-                />
+                {/*<img*/}
+                {/*    src={Background}*/}
+                {/*    alt="Background Blur"*/}
+                {/*    className="background"*/}
+                {/*/>*/}
               </div>
             </div>
           </>
