@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Particles from './components/Particles';
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
 import Hero from "./components/Hero.tsx";
@@ -35,7 +34,6 @@ const App: React.FC = () => {
     return (
         <>
             <div className="App">
-                <Particles quantity={100} color="#ffffff" />
                 <SpeedInsights />
                 <Analytics />
                 <Fade triggerOnce>
