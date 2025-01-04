@@ -1,0 +1,118 @@
+{
+  "companies": {
+    "percolab": {
+      "label": "Percolab",
+      "logoSrc": "/logos/percolab.png",
+      "color": "#3663AD"
+    }
+  },
+  "institutions": {
+    "concordia": {
+      "label": "Concordia University",
+      "logoSrc": "/logos/concordia.png",
+      "color": "#922338"
+    }
+  },
+  "tech": {
+    "languages": {
+      "java": {
+        "label": "Java",
+        "logoSrc": "/logos/java.svg",
+        "color": "#003B57"
+      },
+      "python": {
+        "label": "Python",
+        "logoSrc": "/logos/python.svg",
+        "color": "#003B57"
+      },
+      "typescript": {
+        "label": "TypeScript",
+        "logoSrc": "/logos/typescript.svg",
+        "color": "#003B57"
+      },
+      "javascript": {
+        "label": "JavaScript",
+        "logoSrc": "/logos/javascript.svg",
+        "color": "#003B57"
+      }
+    },
+    "frameworks": {
+      "react": {
+        "label": "React",
+        "logoSrc": "/logos/react.svg",
+        "color": "#003B57"
+      },
+      "nextjs": {
+        "label": "NextJS",
+        "logoSrc": "/logos/nextjs.svg",
+        "color": "#003B57"
+      },
+      "tailwindcss": {
+        "label": "TailwindCSS",
+        "logoSrc": "/logos/tailwindcss.svg",
+        "color": "#003B57"
+      }
+    },
+    "databases": {
+      "mysql": {
+        "label": "MySQL",
+        "logoSrc": "/logos/mysql.svg",
+        "color": "#003B57"
+      },
+      "postgresql": {
+        "label": "PostgreSQL",
+        "logoSrc": "/logos/postgresql.svg",
+        "color": "#003B57"
+      },
+      "sqlite": {
+        "label": "SQLite",
+        "logoSrc": "/logos/sqlite.svg",
+        "color": "#003B57"
+      }
+    },
+    "tools": {
+      "figma": {
+        "label": "Figma",
+        "logoSrc": "/logos/figma.svg",
+        "color": "#003B57"
+      },
+      "docker": {
+        "label": "Docker",
+        "logoSrc": "/logos/docker.svg",
+        "color": "#003B57"
+      },
+      "git": {
+        "label": "Git",
+        "logoSrc": "/logos/git.svg",
+        "color": "#003B57"
+      },
+      "postman": {
+        "label": "Postman",
+        "logoSrc": "/logos/postman.svg",
+        "color": "#003B57"
+      }
+    },
+    "other": {
+      "nodejs": {
+        "label": "NodeJS",
+        "logoSrc": "/logos/nodejs.svg",
+        "color": "#003B57"
+      },
+      "html": {
+        "label": "HTML",
+        "logoSrc": "/logos/figma.svg",
+        "color": "#003B57"
+      },
+      "css": {
+        "label": "CSS",
+        "logoSrc": "/logos/css.svg",
+        "color": "#003B57"
+      },
+      "wordpress": {
+        "label": "WordPress",
+        "logoSrc": "/logos/wordpress.svg",
+        "color": "#003B57"
+      }
+    }
+  }
+}
