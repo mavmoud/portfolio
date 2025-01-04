@@ -1,0 +1,28 @@
+{
+  "about": {
+    "description": "I’m a Software Engineering student with a strong passion for designing and building dynamic, user-friendly applications. My expertise includes web development with React and TypeScript, backend development using PostgreSQL and Docker, and proficiency in programming languages such as Java and Python. I’ve also worked on projects involving content management systems like WordPress. I enjoy solving problems and continuously improving my skills and learning new skills to craft meaningful and well-engineered software solutions."
+  },
+  "experience": [
+    {
+      "date": "2025 - Now",
+      "position": "Web Developer Intern",
+      "company": "percolab",
+      "url": "https://percolab.com"
+    }
+  ],
+  "education": [
+    {
+      "date": " 2020 - Now",
+      "degree": "BEng in Software Engineering",
+      "institution": "concordia",
+      "url": "https://concordia.ca"
+    }
+  ],
+  "techStack": {
+    "languages": ["java", "python", "typescript", "javascript"],
+    "frameworks": ["react", "nextjs", "tailwindcss"],
+    "databases": ["mysql", "postgresql", "sqlite"],
+    "tools": ["figma", "docker", "git", "postman"],
+    "other": ["nodejs", "html", "css", "wordpress"]
+  }
+}
