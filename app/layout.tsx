@@ -1,16 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { CursorLayout } from "@/components/CursorLayout";
+import Footer from "@/components/Footer";
 
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-//
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
 const switzer = localFont({
   src: "../public/fonts/Switzer.woff2",
   variable: "--font-switzer",
@@ -35,7 +28,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${switzer.variable} ${gambarino.variable} antialiased`}>
+        <CursorLayout />
         {children}
+        <Footer />
       </body>
     </html>
   );

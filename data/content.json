@@ -1,6 +1,41 @@
 {
   "about": {
-    "description": "I’m a Software Engineering student with a strong passion for designing and building dynamic, user-friendly applications. My expertise includes web development with React and TypeScript, backend development using PostgreSQL and Docker, and proficiency in programming languages such as Java and Python. I’ve also worked on projects involving content management systems like WordPress. I enjoy solving problems and continuously improving my skills and learning new skills to craft meaningful and well-engineered software solutions."
+    "description": "I’m an aspiring Software Engineering student and current Web Developer intern with a keen interest in learning new technologies and creating functional, visually appealing products. I enjoy both building and designing, combining creativity with technical skills to craft practical and innovative solutions. As a tech enthusiast, I am always exploring new tools and approaches to enhance my work and stay ahead in the fast changing world of technology."
+  },
+  "projects": {
+    "parceler": {
+      "title": "Parceler",
+      "description": "Building a Modern Delivery Service Platform",
+      "src": "/parceler.png",
+      "explore": "https://parceler.mahmmk.com",
+      "source": "https://github.com/mavmoud/parceler",
+      "content": "Built for a Software Architecture and Design course, Parceler is a prototype shipping platform featuring real-world delivery service components like shipping quotes, real-time tracking, and secure payments, all wrapped in a polished, user-friendly design. Users receive automated email notifications at signup, upon creating a shipment (with a QR code for drop-off), and whenever a status changes. A chatbot on the help page answers queries, while a user dashboard lets customers manage shipments and drivers easily view and update assigned deliveries.",
+      "languages": ["typescript"],
+      "frameworks": ["react"],
+      "databases": ["postgresql"],
+      "tools": ["docker", "figma"],
+      "other": ["nodejs"]
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "description": "Showcasing My Work and Experience",
+      "src": "/portfolio.png",
+      "explore": "https://mahmmk.com",
+      "source": "https://github.com/mavmoud/portfolio",
+      "content": "Created to highlight my personal journey, this portfolio website is a dynamic reflection of my skills and growth as a developer, all wrapped in a polished, user-friendly design. Initially designed in Figma and built with React and TypeScript, it later transitioned to NextJS for improved performance and a chance to explore new technologies. The site includes sections that showcase my projects, education, professional experience, and technical expertise, with regular updates as I build with and try new technologies.",
+      "languages": ["typescript"],
+      "frameworks": ["react", "nextjs", "tailwindcss"],
+      "tools": ["figma"]
+    },
+    "wellness": {
+      "title": "Wellness",
+      "description": "Designing an App for The Elderly",
+      "src": "/wellness.png",
+      "explore": "https://wellness.mahmmk.com",
+      "source": "https://www.figma.com/proto/7hW67dW7u4XA1QcKNUowjn/wellness?page-id=0%3A1&node-id=2-3&p=f&viewport=611%2C438%2C0.25&t=KmmApjF9LyGyeXY9-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A3",
+      "content": "Created as a UI/UX case study for a university project, Wellness is an app prototype designed in Figma to support elders in their daily lives. It tackles medication reminders, exercise, and social connections, using accessibility best practices and an earthy color palette. Guided by user research, interviews, and personas, the design includes features like vitals monitoring, emergency contacts, and a built-in radio. Wireframes, user flows, and storyboards showcase how thoughtful UI/UX can help seniors stay independent.",
+      "tools": ["figma"]
+    }
   },
   "experience": [
     {

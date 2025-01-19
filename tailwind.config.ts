@@ -10,6 +10,37 @@ export default {
   ],
   theme: {
     extend: {
+      keyframes: {
+        beat: {
+          "0%": {
+            transform: "scale(1)",
+          },
+          "50%": {
+            transform: "scale(0.96)",
+          },
+          "100%": {
+            transform: "scale(1)",
+          },
+        },
+        background: {
+          "0%": {
+            transform: "translate(0px, 0px) scale(1)",
+          },
+          "33%": {
+            transform: "translate(10px, 0px) scale(0.9)",
+          },
+          "66%": {
+            transform: "translate(-30px, 0px)scale(0.9)",
+          },
+          "100%": {
+            transform: "translate(0px, 0px) scale(1)",
+          },
+        },
+      },
+      animation: {
+        background: "background 10s ease-in-out infinite",
+        beat: "beat 3s ease-in-out infinite",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -18,7 +49,8 @@ export default {
       },
       fontFamily: {
         switzer: ["var(--font-switzer)"],
-        gambarino: ["var(--font-gambarino)"],
+        gambarino: ["var(--font-gambarino)", "serif"],
+        montserrat: ["var(--font-montserrat)"],
       },
       borderRadius: {
         lg: "var(--radius)",

@@ -1,14 +1,16 @@
 import React from "react";
 import Tag from "./Tag";
 import content from "@/data/content.json";
-import { LinkPreview } from "@/components/ui/link-preview";
+import { LinkPreview } from "@/components/ui/LinkPreview";
 
 const Experience: React.FC = () => {
   const { experience } = content;
 
   return (
-    <div className={`flex justify-between flex-col gap-8`}>
-      <div className={`text-[28px] font-switzer font-semibold`}>Experience</div>
+    <div className={`w-[46.5rem] flex justify-between flex-col gap-8`}>
+      <div className={`text-[1.75rem] font-switzer font-semibold`}>
+        Experience
+      </div>
 
       <div className={`flex justify-between flex-col gap-5`}>
         {experience.map((exp, index) => (

@@ -1,14 +1,13 @@
 import React from "react";
 import Tag from "./Tag";
 import content from "@/data/content.json";
-// import { TagsFile, TechSections } from '@/types/types';
 
 const TechStack: React.FC = () => {
   const { techStack } = content;
   const { languages, frameworks, databases, tools, other } = techStack;
 
   return (
-    <div className={`flex justify-between flex-col gap-8`}>
+    <div className={`w-[46.5rem] flex justify-between flex-col gap-8`}>
       <div className={`text-[28px] font-switzer font-semibold`}>Tech Stack</div>
 
       <div className={`flex justify-between flex-col gap-5`}>
