@@ -76,7 +76,6 @@ export function CursorLayout() {
             >
               <div className="inline-flex items-center font-switzer text-base text-white">
                 {hoverText}
-                {/*<PlusIcon className="ml-1 h-4 w-4" />*/}
               </div>
             </motion.div>
           ) : null}

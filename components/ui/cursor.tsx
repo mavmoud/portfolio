@@ -37,7 +37,7 @@ export function Cursor({
   const cursorX = useMotionValue(0);
   const cursorY = useMotionValue(0);
   const cursorRef = useRef<HTMLDivElement>(null);
-  const [isVisible, setIsVisible] = useState(!attachToParent);
+  const [isVisible] = useState(!attachToParent);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
