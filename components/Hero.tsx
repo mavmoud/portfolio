@@ -30,18 +30,21 @@ export default function Hero() {
                 <Link
                   className="hover:text-white"
                   href="https://github.com/mavmoud"
+                  target="_blank"
                 >
                   Github
                 </Link>
                 <Link
                   className="hover:text-white"
                   href="https://linkedin.com/in/mavmoud"
+                  target="_blank"
                 >
                   Linkedin
                 </Link>
                 <Link
                   className="hover:text-white"
                   href="mailto:Mahmoud%20M.%3cmm@mahmmk.com%3e"
+                  target="_blank"
                 >
                   Email
                 </Link>
