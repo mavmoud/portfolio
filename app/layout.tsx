@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { CursorLayout } from "@/components/CursorLayout";
 import Footer from "@/components/Footer";
-import { PostHogProvider } from '@/app/providers'
+import { PostHogProvider } from "@/components/posthog/Providers";
 
 const switzer = localFont({
   src: "../public/fonts/Switzer.woff2",
@@ -30,9 +30,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${switzer.variable} ${gambarino.variable} antialiased`}>
         <CursorLayout />
-        <PostHogProvider>
-          {children}
-        </PostHogProvider>
+        <PostHogProvider>{children}</PostHogProvider>
         <Footer />
       </body>
     </html>
