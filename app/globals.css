@@ -21,4 +21,5 @@ body {
   display: none;
 }
 
-@layer base {}
+@layer base {
+}
