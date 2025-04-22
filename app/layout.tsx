@@ -4,6 +4,7 @@ import "@/app/globals.css";
 import { CursorLayout } from "@/components/cursor-layout";
 import Footer from "@/components/footer";
 import { PostHogProvider } from "@/components/posthog/providers";
+import Header from "@/components/header";
 
 const switzer = localFont({
   src: "../public/fonts/Switzer.woff2",
@@ -29,6 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${switzer.variable} ${gambarino.variable} antialiased`}>
+        <Header />
         <CursorLayout />
         <PostHogProvider>{children}</PostHogProvider>
         <Footer />
