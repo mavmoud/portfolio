@@ -1,7 +1,7 @@
-import Parceler from "@/components/projects/Parceler";
-import Portfolio from "@/components/projects/Portfolio";
-import Wellness from "@/components/projects/Wellness";
-import Tag from "@/components/Tag";
+import Parceler from "@/components/projects/parceler";
+import Portfolio from "@/components/projects/portfolio";
+import Wellness from "@/components/projects/wellness";
+import Tag from "@/components/tag";
 import React from "react";
 
 type TechSections = {

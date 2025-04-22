@@ -1,27 +1,29 @@
 import React from "react";
-import Tag from "./Tag";
+import Tag from "@/components/tag";
 import content from "@/data/content.json";
-import { LinkPreview } from "@/components/ui/LinkPreview";
+import { LinkPreview } from "@/components/ui/link-preview";
 
-const Education: React.FC = () => {
-  const { education } = content;
+const Experience: React.FC = () => {
+  const { experience } = content;
 
   return (
     <div className={`w-[46.5rem] flex justify-between flex-col gap-8`}>
-      <div className={`text-[28px] font-switzer font-semibold`}>Education</div>
+      <div className={`text-[1.75rem] font-switzer font-semibold`}>
+        Experience
+      </div>
 
       <div className={`flex justify-between flex-col gap-5`}>
-        {education.map((edu, index) => (
+        {experience.map((exp, index) => (
           <div key={index} className={`flex items-center`}>
             <div className={`text-xl font-switzer text-gray w-[184px] `}>
-              {edu.date}
+              {exp.date}
             </div>
             <div
               className={`flex gap-3 items-center text-xl font-switzer text-silver`}
             >
-              {edu.degree} at
-              <LinkPreview url={edu.url}>
-                <Tag type="institutions" tagKey={edu.institution} />
+              {exp.position} at
+              <LinkPreview url={exp.url}>
+                <Tag type="companies" tagKey={exp.company} />
               </LinkPreview>
             </div>
           </div>
@@ -31,4 +33,4 @@ const Education: React.FC = () => {
   );
 };
 
-export default Education;
+export default Experience;

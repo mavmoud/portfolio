@@ -1,9 +1,9 @@
-import TechStack from "@/components/TechStack";
-import Education from "@/components/Education";
-import Experience from "@/components/Experience";
-import Hero from "@/components/Hero";
-import Projects from "@/components/Projects";
-import About from "@/components/About";
+import TechStack from "@/components/tech-stack";
+import Education from "@/components/education";
+import Experience from "@/components/experience";
+import Hero from "@/components/hero";
+import Projects from "@/components/projects";
+import About from "@/components/about";
 
 export default function Home() {
   return (

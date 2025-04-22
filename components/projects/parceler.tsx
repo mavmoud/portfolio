@@ -2,12 +2,12 @@
 
 import React, { useEffect, useId, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { useOutsideClick } from "@/hooks/useOutsideClick";
+import { useOutsideClick } from "@/hooks/use-outside-click";
 import content from "@/data/content.json";
 import { Project } from "@/types/types";
-import { renderContent, renderTags } from "@/components/Projects";
+import { renderContent, renderTags } from "@/components/projects";
 import { X, ArrowRight, Github } from "lucide-react";
-import BlurFade from "@/components/ui/BlurFade";
+import BlurFade from "@/components/ui/blur-fade";
 
 export default function Parceler() {
   const [active, setActive] = useState<Project | boolean | null>(null);

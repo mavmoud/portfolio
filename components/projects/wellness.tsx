@@ -2,19 +2,19 @@
 
 import React, { useEffect, useId, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { useOutsideClick } from "@/hooks/useOutsideClick";
+import { useOutsideClick } from "@/hooks/use-outside-click";
 import content from "@/data/content.json";
 import { Project } from "@/types/types";
-import { renderContent, renderTags } from "@/components/Projects";
-import { X, Github } from "lucide-react";
-import BlurFade from "@/components/ui/BlurFade";
+import { renderContent, renderTags } from "@/components/projects";
+import { X, ArrowRight, Figma } from "lucide-react";
+import BlurFade from "@/components/ui/blur-fade";
 
-export default function Portfolio() {
+export default function Wellness() {
   const [active, setActive] = useState<Project | boolean | null>(null);
   const [isMounted, setIsMounted] = useState(false);
   const id = useId();
   const ref = useRef<HTMLDivElement>(null!);
-  const portfolio = content.projects.portfolio;
+  const wellness = content.projects.wellness;
 
   useEffect(() => {
     setIsMounted(true);
@@ -90,7 +90,7 @@ export default function Portfolio() {
               </motion.div>
 
               <div>
-                <div className="flex justify-between items-center py-4">
+                <div className="flex justify-between items-start py-4">
                   <div>
                     <motion.h3
                       layoutId={`title-${active.title}-${id}`}
@@ -105,7 +105,6 @@ export default function Portfolio() {
                       {active.description}
                     </motion.p>
                   </div>
-
                   <div className="flex justify-between items-center gap-2">
                     <motion.a
                       layout
@@ -116,7 +115,18 @@ export default function Portfolio() {
                       target="_blank"
                       className="p-3 flex rounded-full border border-zinc-800 hover:border-neutral-600 bg-black/50"
                     >
-                      <Github />
+                      <Figma />
+                    </motion.a>
+                    <motion.a
+                      layout
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      exit={{ opacity: 0 }}
+                      href={active.explore}
+                      target="_blank"
+                      className="p-3 rounded-full border border-zinc-800 hover:border-neutral-600 bg-black/50"
+                    >
+                      <ArrowRight />
                     </motion.a>
                   </div>
                 </div>
@@ -132,7 +142,7 @@ export default function Portfolio() {
                       <p>{renderContent(active.content)}</p>
                     </div>
                     <div className="flex items-center justify-between w-full">
-                      {renderTags(portfolio)}
+                      {renderTags(wellness)}
                     </div>
                   </motion.div>
                 </div>
@@ -142,35 +152,35 @@ export default function Portfolio() {
           </div>
         ) : null}
       </AnimatePresence>
-      <BlurFade delay={0.25} direction={"up"} inView>
+      <BlurFade delay={0.35} direction={"up"} inView>
         <div className="max-w-7xl mx-auto w-full">
           <motion.div
-            layoutId={`card-${portfolio.title}-${id}`}
-            onClick={() => setActive(portfolio)}
+            layoutId={`card-${wellness.title}-${id}`}
+            onClick={() => setActive(wellness)}
             className="p-10 flex flex-col bg-black rounded-[3rem] overflow-hidden cursor-Explore"
           >
             <div className="flex gap-4 flex-col w-full relative">
               <div className="absolute right-0 z-20 w-[0.77px] h-[0.77px] bg-[#252525] rounded-full shadow-[0px_0px_76.34083557128906px_93.80541229248047px_rgba(142,142,142,0.25)]" />
-              <motion.div layoutId={`image-${portfolio.title}-${id}`}>
+              <motion.div layoutId={`image-${wellness.title}-${id}`}>
                 <img
-                  src={portfolio.src}
-                  alt={portfolio.title}
+                  src={wellness.src}
+                  alt={wellness.title}
                   className="w-full pointer-events-none"
                 />
               </motion.div>
               <div className="flex justify-center flex-col relative">
-                <div className="absolute w-[0.77px] h-[0.77px] bg-[#252525] rounded-full shadow-[0px_0px_76.34083557128906px_93.80541229248047px_rgba(142,142,142,0.25)]" />
+                <div className="absolute z-20 w-[0.77px] h-[0.77px] bg-[#252525] rounded-full shadow-[0px_0px_76.34083557128906px_93.80541229248047px_rgba(142,142,142,0.25)]" />
                 <motion.h3
-                  layoutId={`title-${portfolio.title}-${id}`}
+                  layoutId={`title-${wellness.title}-${id}`}
                   className="font-semibold font-switzer text-white text-lg text-left"
                 >
-                  {portfolio.title}
+                  {wellness.title}
                 </motion.h3>
                 <motion.p
-                  layoutId={`description-${portfolio.description}-${id}`}
+                  layoutId={`description-${wellness.description}-${id}`}
                   className="text-gray text-sm font-switzer"
                 >
-                  {portfolio.description}
+                  {wellness.description}
                 </motion.p>
               </div>
             </div>

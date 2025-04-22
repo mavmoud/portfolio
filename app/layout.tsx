@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import "./globals.css";
-import { CursorLayout } from "@/components/CursorLayout";
-import Footer from "@/components/Footer";
-import { PostHogProvider } from "@/components/posthog/Providers";
+import "@/app/globals.css";
+import { CursorLayout } from "@/components/cursor-layout";
+import Footer from "@/components/footer";
+import { PostHogProvider } from "@/components/posthog/providers";
 
 const switzer = localFont({
   src: "../public/fonts/Switzer.woff2",

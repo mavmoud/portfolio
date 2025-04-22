@@ -1,5 +1,5 @@
 import Link from "next/link";
-import BlurFade from "@/components/ui/BlurFade";
+import BlurFade from "@/components/ui/blur-fade";
 
 export default function Hero() {
   return (
