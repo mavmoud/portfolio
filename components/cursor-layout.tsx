@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { Cursor } from "@/components/ui/cursor";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 
 export function CursorLayout() {
   const [isHovering, setIsHovering] = useState(false);

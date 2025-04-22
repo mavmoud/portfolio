@@ -9,7 +9,7 @@ import {
   motion,
   useMotionValue,
   useSpring,
-} from "framer-motion";
+} from "motion/react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
